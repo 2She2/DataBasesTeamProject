@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VehicleVendor.Reports" GeneratedClassName="ReportSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OleDbConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=..\..\Report.xlsx;Extended Properties="Excel 12.0 Xml;HDR=YES";</Value>
+    </Setting>
+    <Setting Name="SQLiteConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=..\..\..\SQLiteDatabase\nissan_costs.sqlite;Version=3;</Value>
+    </Setting>
+    <Setting Name="PDFFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../Reports/PdfReport.pdf</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="VehicleVendor.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Team Giant Database Team Project" Height="450" Width="625">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" x:Name="Msg" Height="50" Margin="78,10,107,359"/>
+        <Button Click="OnLoadMongoClick" Width="200" Height="50" Margin="28,30,289,238">Load data from MongoDB</Button>
+        <Button Click="OnXMLToSQLClick" Width="200" Height="50" Margin="28,100,289,166">Load data from XML to SQL</Button>
+        <Button Click="OnXMLToMongoClick" Width="200" Height="50" Margin="28,170,289,94" Content="Load data from XML to &#xD;&#xA;MongoDB"/>
+        <Button Click="OnLoadExcelZipClick" Width="200" Height="50" Margin="28,246,289,23" Content="Load data from zipped &#xD;&#xA;Excel 2003 files to SQL"/>
+        <Button Click="OnGeneratePdfReportClick" Width="200" Height="50" Margin="260,30,57,239">Generate PDF report</Button>
+        <Button Click="OnGenerateXMLReportClick" Width="200" Height="50" Margin="260,102,57,167">Generate XML report</Button>
+        <Button Click="OnGenerateJSONClick" Width="200" Height="50" Margin="260,172,57,97" Content="Create JSON files and&#xD;&#xA; load them to MySQL" />
+        <Button Click="OnGenerateExcelClick" Width="200" Height="50" Margin="260,246,57,23">Generate Excel 2007 Report</Button>
+    </Grid>
+</Window>

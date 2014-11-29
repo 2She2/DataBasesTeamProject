@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<discounts xmlns="urn:discounts.data">
+  <discount>
+    <dealer>
+      <company>Kudu Motors</company>
+      <country>South Africa</country>
+    </dealer>
+    <amount>2.3</amount>
+  </discount>
+  <discount>
+    <dealer>
+      <company>Grand Brasil Nissan</company>
+      <country>Brazil</country>
+    </dealer>
+    <amount>2.1</amount>
+  </discount>
+  <discount>
+    <dealer>
+      <company>Nissan Boulanger Auto</company>
+      <country>France</country>
+    </dealer>
+    <amount>4.1</amount>
+  </discount>
+  <discount>
+    <dealer>
+      <company>Glendale Nissan</company>
+      <country>USA</country>
+    </dealer>
+    <amount>4.0</amount>
+  </discount>
+  <discount>
+    <dealer>
+      <company>Beijing Yuntong Boao Car Trade</company>
+      <country>China</country>
+    </dealer>
+    <amount>4.0</amount>
+  </discount>
+  <discount>
+    <dealer>
+      <company>Nissan Center Europe GmbH</company>
+      <country>Germany</country>
+    </dealer>
+    <amount>2.4</amount>
+  </discount>
+  <discount>
+    <dealer>
+      <company>Nissan Sofia AD</company>
+      <country>Bulgaria</country>
+    </dealer>
+    <amount>0.4</amount>
+  </discount>
+</discounts>

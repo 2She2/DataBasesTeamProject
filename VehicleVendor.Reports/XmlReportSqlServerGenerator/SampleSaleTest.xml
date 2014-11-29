@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sales_report xmlns="http://nissan.com/ReportSchema.xsd">
+  <country name="Bulgaria">
+    <dealer name="Nissan Sofia AD">
+      <day_sale date="2014-02-03">130000.00</day_sale>
+    </dealer>
+  </country>
+</sales_report>

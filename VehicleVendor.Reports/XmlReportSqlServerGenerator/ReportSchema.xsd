@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportSchema"
+    targetNamespace="http://nissan.com/ReportSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://nissan.com/ReportSchema.xsd"
+    xmlns:mstns="http://nissan.com/ReportSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="sales_report">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="country" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="country">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dealer" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="dealer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="day_sale" type="saleType" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="saleType">
+    <xs:simpleContent>
+      <xs:extension base="xs:decimal">
+         <xs:attribute name="date" type="xs:date" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>
+
